@@ -19,7 +19,7 @@ const Contact = () => {
                     <ImageClipBox clipClass="contact-clip-path-2 translate-y-60 lg:translate-y-60"
                     src="img/contact-2.webp"/>
                 </div>
-                <div className="absolute -top-40 left-20 w-60 sm:top-1/2 md:left-auto md:right-2 lg:top-20 lg:w-80">
+                <div className="absolute -top-40 left-20 w-60 sm:top-1/2 md:left-auto md:right-1 lg:top-20 lg:w-80">
                     <ImageClipBox 
                     src="img/swordman-partial.webp"
                     clipClass="absolute md:scale-115"/>
@@ -30,7 +30,7 @@ const Contact = () => {
 
                 <div className="flex flex-col items-center text-center">
                     <p className="font-general text-[20px] uppercase">join zentry</p>
-                    <p className="special-font mt-10 w-full font-zentry text-5xl leading-[0.9] md:text-[6rem] md:z-10  mix-blend-difference">
+                    <p className="special-font mt-10 w-full font-zentry text-5xl leading-[0.9] md:text-[6rem] md:z-10  ">
                       let's b<b>u</b>ild the <br /> new era of <br />g<b>a</b>mming together </p>
                       <Button
                       title="contact us" containerClass="mt-10 cusror-pointer" />
